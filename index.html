@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sinal do Povo</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" href="files/icone/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+  <header>
+    <h1>Sinal do Povo</h1>
+  </header>
+
+  <main>
+    <div id="map"></div>
+    <button class="buttonStyle" onclick="centralizarMapa()">Centralizar Mapa</button>
+    <button class="buttonStyle" onclick="redirecionarParaLogin()">Login</button>
+  </main>
+
+  <footer></footer>
+
+  <script src="js/script.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCFL1hKPkN_VaUlwFNIaJS_dvZ_9Tiej5s&callback=initMap"
+    async
+    defer
+  ></script>
+</body>
+</html>
+
