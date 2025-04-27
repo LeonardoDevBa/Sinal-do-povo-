@@ -30,5 +30,5 @@ function centralizarMapa() {
 }
 
 function redirecionarParaLogin() {
-  window.location.href = "paginas/login.html";
+  window.location.href = "login.html";
 }
